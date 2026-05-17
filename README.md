@@ -1,7 +1,6 @@
-# Mi App Perfil – Flutter Web
+# Mi App Perfil – Flutter Despliegue en Render
 
-App con **Login**, **Registro** y **Perfil de usuario**, lista para desplegar en Render, Vercel, Coolify o Docploy.
-
+App con **Login**, **Registro** y **Perfil de usuario**, lista para desplegar en Render.
 ## Pantallas
 
 | Pantalla | Descripción |
@@ -23,7 +22,7 @@ flutter run -d chrome
 flutter build web --release
 ```
 
-## Despliegue en Render (recomendado – plan gratuito)
+## Despliegue en Render 
 
 1. Sube el proyecto a GitHub
 2. Ve a https://render.com → New → Static Site
@@ -35,15 +34,6 @@ flutter build web --release
      ```
    - **Publish directory:** `build/web`
 5. Pulsa **Create Static Site**
-
-## Despliegue en Vercel
-
-```bash
-npm i -g vercel
-flutter build web --release
-cd build/web
-vercel --prod
-```
 
 ## Notas
 
